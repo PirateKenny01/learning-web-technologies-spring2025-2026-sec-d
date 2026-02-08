@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 8 - Person Profile</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="5" cellspacing="0" width="500">
+            <tr>
+                <th colspan="3"><h2>PERSON PROFILE</h2></th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" style="width: 90%;"></td>
+                <td width="20"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" style="width: 90%;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="p_male" name="gender" value="male"> <label for="p_male">Male</label>
+                    <input type="radio" id="p_female" name="gender" value="female"> <label for="p_female">Female</label>
+                    <input type="radio" id="p_other" name="gender" value="other"> <label for="p_other">Other</label>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="text" size="2"> / 
+                    <input type="text" size="2"> / 
+                    <input type="text" size="4"> 
+                    (dd/mm/yyyy)
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td>
+                    <select name="bloodgroup">
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="O+">O+</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td>
+                    <input type="checkbox" id="p_ssc" name="degree"> <label for="p_ssc">SSC</label>
+                    <input type="checkbox" id="p_hsc" name="degree"> <label for="p_hsc">HSC</label>
+                    <input type="checkbox" id="p_bsc" name="degree"> <label for="p_bsc">BSc.</label>
+                    <input type="checkbox" id="p_msc" name="degree"> <label for="p_msc">MSc.</label>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td colspan="2">
+                    <input type="file" name="photo">
+                </td>
+                
+                
+            </tr>
+
+            <tr>
+                <td colspan="3" width="20" height="20"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
