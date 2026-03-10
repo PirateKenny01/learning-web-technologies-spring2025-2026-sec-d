@@ -1,0 +1,71 @@
+.container 
+{
+    width: 50%;
+    border: 3px solid black;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+}
+
+.cell 
+{
+    position: static;
+   width: 100px;
+   height: 100px;
+}
+
+.box-1
+{
+    background-color: lightblue;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-2
+{
+    background-color: lightgreen;
+    border: 1px solid black;
+    position: absolute;
+    
+}
+.box-3
+{
+    background-color: lightpink;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-4
+{
+    background-color: lightyellow;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-5
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-6
+{
+    background-color: lightcyan;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-7
+{
+    background-color: lightcoral;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-8
+{
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    position: absolute;
+}
+.box-9
+{
+    background-color: lightseagreen;
+    border: 1px solid black;
+    position: absolute;
+}
