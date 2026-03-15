@@ -1,0 +1,41 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Product Management</title>
+    <link rel="stylesheet" type="text/css" href="Product_management_page.css"></link>
+
+
+</head>
+<body>
+    <h1>Items</h1>
+     <form>
+        <div style="display: inline-block;">
+            <label for="Items">Items</label>
+            <select id="Items" name="items">
+                <option value="">---Select---</option>
+                <option value="Rice">Rice</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Dal">Dal</option>
+                <option value="Sugar">Sugar</option>
+                <option value="Salt">Salt</option>
+                <option value="Oil">Oil</option>
+                
+            </select>
+            <hr>
+        </div>
+        <br>
+        <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity">
+        <br><br>
+        <!-- The read-only field -->
+        <label for="totalCost">Total Cost:</label>
+        <input type="text" id="totalCost" name="totalCost" value="$0.00" readonly>
+        <br><br>
+
+        <input type="submit" value="Submit" id="submit">
+    </form>
+
+ <script src="Product_management_page.js"></script>
+
+</body>
+</html>
