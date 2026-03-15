@@ -1,0 +1,42 @@
+/* 1. Center the form on the entire page */
+body {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    min-height: 100vh;       /* Makes body take full screen height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 2. Center the items inside the form */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally within the form */
+    width: 300px;           /* Give the form a set width */
+}
+
+/* 3. Style the inputs for a cleaner look */
+input, select, button {
+    width: 100%;            /* Make them all the same width */
+    margin-bottom: 15px;    /* Add spacing between elements */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff; /* Adds a nice underline */
+    padding-bottom: 10px;
+}

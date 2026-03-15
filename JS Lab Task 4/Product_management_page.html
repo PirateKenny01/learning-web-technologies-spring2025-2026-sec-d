@@ -1,17 +1,19 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     
     <title>Product Management</title>
     <link rel="stylesheet" type="text/css" href="Product_management_page.css"></link>
+    <link rel="icon" type="image/x-icon" href="Product.png">
 
 
 </head>
 <body>
-    <h1>Items</h1>
+    
      <form>
-        <div style="display: inline-block;">
-            <label for="Items">Items</label>
+        <div>
+            <h1>Items</h1>
+            
             <select id="Items" name="items">
                 <option value="">---Select---</option>
                 <option value="Rice">Rice</option>
@@ -22,13 +24,13 @@
                 <option value="Oil">Oil</option>
                 
             </select>
-            <hr>
+           
         </div>
         <br>
         <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity">
         <br><br>
         <!-- The read-only field -->
-        <label for="totalCost">Total Cost:</label>
+        <label for="totalCost">Total Cost</label>
         <input type="text" id="totalCost" name="totalCost" value="$0.00" readonly>
         <br><br>
 
