@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 8 - Person Profile</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="5" cellspacing="0" width="500">
+            <tr>
+                <th colspan="3"><h2>PERSON PROFILE</h2></th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name" style="width: 90%;"></td>
+                <td width="20"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="email" style="width: 90%;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio"  name="gender" value="male" id="male"> <label for="p_male">Male</label>
+                    <input type="radio"  name="gender" value="female" id="female"> <label for="p_female">Female</label>
+                    <input type="radio"  name="gender" value="other" id="other"> <label for="p_other">Other</label>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="text" size="2" id="day"> / 
+                    <input type="text" size="2" id="month"> / 
+                    <input type="text" size="4" id="year"> 
+                    (dd/mm/yyyy)
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td>
+                    <select id="bloodgroup" name="bloodgroup">
+                        <option value="">---Select---</option>
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="O+">O+</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td>
+                    <input type="checkbox"  name="degree" id="ssc"> <label for="p_ssc">SSC</label>
+                    <input type="checkbox"  name="degree" id="hsc"> <label for="p_hsc">HSC</label>
+                    <input type="checkbox"  name="degree" id="bsc"> <label for="p_bsc">BSc.</label>
+                    <input type="checkbox"  name="degree" id="msc"> <label for="p_msc">MSc.</label>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td colspan="2">
+                    <input type="file" name="photo" id="picture">
+                </td>
+                
+                
+            </tr>
+
+            <tr>
+                <td colspan="3" width="20" height="20"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="submit" value="Submit" id="submit_button">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="Person_Profile.js"></script>
+</body>
+</html>
